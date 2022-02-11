@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Chnager</title>
+
+    <style>
+        button{
+            outline: none;
+            border: none;
+            background-color: rgb(17, 0, 255);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            font-size: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow:rgb(17, 0, 255)
+
+        }
+        .container{
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        @media (max-width:600px) {
+            button{
+                padding: 13px;
+                font-size: 22px;
+            }
+            
+        }
+    </style>
+</head>
+<body id="body">
+    <div class="container">
+        <button id="btn">Click Me To Chnage BG-Color</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
